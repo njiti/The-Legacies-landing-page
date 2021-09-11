@@ -1,20 +1,125 @@
-.custom-shape-divider-bottom-1631309331 {
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    font-family: roboto;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Nova Round', cursives;
+}
+.wrap{
+    background: rgba(0,0,0,0.5) url(https://blog.equinix.com/wp-content/uploads/2019/11/games-gamers-neon-man-speakers-desk.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    overflow: hidden;
+    background-blend-mode: overlay;
+}
+.wave{
     position: absolute;
-    bottom: 0;
+    width: 100%;
+    bottom: -140px;
+    color: rgb(8, 8, 8);
+    opacity: 1;
+}
+.header{
+    position: fixed;
+    top: 0;
     left: 0;
     width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
+    padding: 25px 80px;
+    background: linear-gradient(to top, transparent, rgba(0,0,0,0.6));
 }
-
-.custom-shape-divider-bottom-1631309331 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 197px;
+header .logo{
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+    float: left;
 }
-
-.custom-shape-divider-bottom-1631309331 .shape-fill {
-    fill: #FFFFFF;
+header .menu{
+    float: right;
+    margin-top: 5px;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    margin: 0 25px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.content{
+    max-width: 55%;
+    padding: 200px 80px 0;
+    color: #fff;
+}
+.content h1{
+    font-size: 48px;
+    text-align: center !important;
+}
+.content h1{
+    font-size: 48px;
+    text-align: center !important;
+}
+.content p{
+    font-size: 25px;
+    padding: 25px 0;
+    font-weight: 300;
+}
+.content .btn-group{
+    margin-top: 1px;
+}
+.content .btn-group .am{
+    margin-right: 1px;
+}
+.content .btn-group .pm{
+    margin-left: 350px;
+}
+.content .btn-group .time{
+    margin-left: 450px;
+}
+.content a{
+    display: inline-block;
+    padding: 15px 45px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 50px;
+}
+.content a.color1{
+    background-color: #471b27;
+}
+.our-partners h3{
+    font-size: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+    text-decoration-color: #fff;
+}
+.our-partners hr{
+    border: none;
+    height: 4px;
+    width: 100px;background-color: #471b27;
+}
+.our-partners-inner{
+    margin-top: 50px;
+}
+.our-partners-inner a{
+    display: inline-block;
+    width: 14%;
+    padding: 15px;
+    margin-right: 25px;
+    border: 1px solid #cacaca;
+    border-radius: 20px;
+    box-shadow: 0 5px 0 #cacaca;
+}
+.our-partners-inner img{
+    width: 100%;
+}
+#map{
+    height:500px;
+    width: 100%;
 }
