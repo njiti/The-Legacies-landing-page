@@ -91,7 +91,10 @@ header ul li a{
     border-radius: 50px;
 }
 .content a.color1{
-    background-color: #471b27;
+    background: #FF416C;
+	background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
+	background: linear-gradient(to right, #FF4B2B, #FF416C);
+	background-repeat: no-repeat;
 }
 .our-partners h3{
     font-size: 30px;
@@ -122,4 +125,20 @@ header ul li a{
 #map{
     height:500px;
     width: 100%;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    font-size: 14px;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 999;
+}
+
+footer p {
+    margin: 10px 0;
 }
